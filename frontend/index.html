@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyberbot Chat</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f9; display: flex; justify-content: center; align-items: center; height: 100vh; }
+    #chat-container { width: 500px; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    #messages { height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; border-radius: 5px; background: #fafafa; }
+    .msg { margin: 5px 0; padding: 8px; border-radius: 5px; max-width: 70%; }
+    .user { background: #d1e7dd; margin-left: auto; }
+    .bot { background: #f8d7da; margin-right: auto; }
+    #input-container { display: flex; }
+    #message-input { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    #send-btn { padding: 10px 20px; border: none; background: #007bff; color: white; border-radius: 5px; cursor: pointer; margin-left: 10px; }
+    #send-btn:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <div id="chat-container">
+    <div id="messages"></div>
+    <div id="input-container">
+      <input type="text" id="message-input" placeholder="Mesajınızı yazın..." />
+      <button id="send-btn">Gönder</button>
+    </div>
+  </div>
+
+  <script>
+    const messagesDiv = document.getElementById("messages");
+    const input = document.getElementById("message-input");
+    const sendBtn = document.getElementById("send-btn");
+
+    function addMessage(text, sender) {
+      const msg = document.createElement("div");
+      msg.classList.add("msg", sender);
+      msg.innerText = text;
+      messagesDiv.appendChild(msg);
+      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    }
+
+    async function sendMessage() {
+      const text = input.value.trim();
+      if (!text) return;
+      addMessage(text, "user");
+      input.value = "";
+
+      try {
+        const response = await fetch("http://127.0.0.1:8001/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: text })
+        });
+        const data = await response.json();
+        addMessage(data.reply, "bot");
+      } catch (err) {
+        addMessage("❌ Sunucuya bağlanılamadı", "bot");
+      }
+    }
+
+    sendBtn.addEventListener("click", sendMessage);
+    input.addEventListener("keypress", (e) => {
+      if (e.key === "Enter") sendMessage();
+    });
+  </script>
+</body>
+</html>
