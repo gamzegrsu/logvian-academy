@@ -1,2 +1,8 @@
-fastapi
-uvicorn
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+python-dotenv==1.0.1
+docker==7.0.0
+requests==2.31.0
+openai==1.34.0   # phi-3 entegrasyonu için (Azure/AWS/Local HuggingFace olabilir)
+sqlalchemy==2.0.29
+psycopg2-binary==2.9.9   # PostgreSQL bağlantısı (istersen sqlite da olabilir)

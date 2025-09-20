@@ -1,9 +1,25 @@
+version: "3.8"
 services:
   backend:
-    build: ./backend
+    build: .
     ports:
       - "8000:8000"
-  frontend:
-    build: ./frontend
+    volumes:
+      - .:/app
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+  lab_sql_injection:
+    image: vulnerables/web-dvwa
     ports:
-      - "3000:3000"
+      - "8081:80"
+
+  lab_xss:
+    image: bkimminich/juice-shop
+    ports:
+      - "8082:3000"
+
+  lab_hash_cracking:
+    image: mycustom/hash-lab
+    build: ./labs/hash_cracking
+    ports:
+      - "8083:80"
