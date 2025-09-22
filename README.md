@@ -6,36 +6,14 @@
 ![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
 
 **LOGVİAN AKADEMİ: Bilge Logvian’ın Etkileşimli ve Oyunlaştırılmış Siber Güvenlik Macerası**
-<style>
-.neon-frame {
-  height: 200px;
-  width: auto;
-  border-radius: 10px;
-  /* Parlak neon kenarlık için filter ve drop-shadow */
-  filter: drop-shadow(0 0 10px #FFFF33) drop-shadow(0 0 20px #FF00FF);
-  animation: neon-flicker 1s infinite alternate;
-}
-
-@keyframes neon-flicker {
-  0% {
-    filter: drop-shadow(0 0 5px #FFFF33) drop-shadow(0 0 10px #FF00FF);
-  }
-  50% {
-    filter: drop-shadow(0 0 20px #FFFF33) drop-shadow(0 0 40px #FF00FF);
-  }
-  100% {
-    filter: drop-shadow(0 0 10px #FFFF33) drop-shadow(0 0 20px #FF00FF);
-  }
-}
-</style>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
   <!-- Resim -->
-  <img src="logvian.png" alt="Bilge Logvian" class="neon-frame"/>
+  <img src="logvian.png" alt="Bilge Logvian" style="height: 200px; width: auto;"/>
 
   <!-- Video önizlemesi -->
   <a href="https://youtu.be/Emh6zBlALbo">
-    <img src="https://img.youtube.com/vi/Emh6zBlALbo/0.jpg" alt="Demo Video" class="neon-frame"/>
+    <img src="https://img.youtube.com/vi/Emh6zBlALbo/0.jpg" alt="Demo Video" style="height: 200px; width: auto;"/>
   </a>
 </div>
 
@@ -45,6 +23,7 @@
   text-shadow: 0 0 5px #DA70D6, 0 0 10px #BA55D3, 0 0 15px #9400D3;">
   LOGVİAN AKADEMİ
 </h3>
+
 
 
 ---
