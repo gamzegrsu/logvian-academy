@@ -7,16 +7,15 @@
 
 **Mistik bir üslupla siber güvenlik öğreten interaktif AI eğitmen platformu**
 
-<p align="center">
-  <img src="logvian.png" alt="Bilge Logvian" width="400"/>
-</p>
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
+  <!-- Resim -->
+  <img src="logvian.png" alt="Bilge Logvian" style="width: 200px; height: auto;"/>
 
-
-<p align="center">
+  <!-- Video önizlemesi -->
   <a href="https://youtu.be/Emh6zBlALbo">
-    <img src="https://img.youtube.com/vi/Emh6zBlALbo/0.jpg" alt="Demo Video" width="600"/>
+    <img src="https://img.youtube.com/vi/Emh6zBlALbo/0.jpg" alt="Demo Video" style="width: 300px; height: auto;"/>
   </a>
-</p>
+</div>
 
 <h3 align="center" style="
   font-family: 'Papyrus', fantasy, serif; 
@@ -24,6 +23,7 @@
   text-shadow: 0 0 5px #DA70D6, 0 0 10px #BA55D3, 0 0 15px #9400D3;">
   LOGVİAN AKADEMİ
 </h3>
+
 
 ---
 
