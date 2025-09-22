@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    build: ./vulnerable_app
+    container_name: xss_lab_app
+    ports:
+      - "8081:5000"
