@@ -10,7 +10,7 @@
 
 ---
 
-## 🏆 Hackathon Proje
+## 🏆 Pupilica - Yapay Zeka Hackathon Proje
 
 **Logvian Akademi**, siber güvenlik eğitimini eğlenceli ve etkileşimli hale getiren, yapay zeka destekli bir öğrenme platformudur. Gerçek dünya senaryoları, canlı lablar ve mistik bir AI eğitmenle siber güvenlik becerilerinizi geliştirin. Logvian Akademi evreninde gerçek bir mentör Bilge Logvian , sana tüm detayları öğretecektir.
 
