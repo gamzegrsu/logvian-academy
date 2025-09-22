@@ -6,6 +6,10 @@
 ![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
 
 **Mistik bir üslupla siber güvenlik öğreten interaktif AI eğitmen platformu**
+
+
+
+
 [![Demo Video](https://img.youtube.com/vi/Emh6zBlALbo/0.jpg)](https://youtu.be/Emh6zBlALbo)
 
 ---
