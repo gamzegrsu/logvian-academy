@@ -8,6 +8,11 @@
 **Mistik bir üslupla siber güvenlik öğreten interaktif AI eğitmen platformu**
 
 <p align="center">
+  <img src="logvian.png" alt="Bilge Logvian" width="400"/>
+</p>
+
+
+<p align="center">
   <a href="https://youtu.be/Emh6zBlALbo">
     <img src="https://img.youtube.com/vi/Emh6zBlALbo/0.jpg" alt="Demo Video" width="600"/>
   </a>
