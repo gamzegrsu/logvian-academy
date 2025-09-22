@@ -1,7 +1,6 @@
 # 🔮 Logvian Akademi - Siber Güvenlik Eğitim Platformu
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Hackathon](https://img.shields.io/badge/Hackathon-Winner-blue)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
