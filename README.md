@@ -9,11 +9,17 @@
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
   <!-- Resim -->
-  <img src="logvian.png" alt="Bilge Logvian" style="width: 200px; height: auto;"/>
+  <img src="logvian.png" alt="Bilge Logvian" 
+       style="height: 200px; width: auto;
+              box-shadow: 0 0 10px #FFFF33, 0 0 20px #FF00FF, 0 0 30px #FFFF33, 0 0 40px #FF00FF;
+              border-radius: 10px;"/>
 
   <!-- Video önizlemesi -->
   <a href="https://youtu.be/Emh6zBlALbo">
-    <img src="https://img.youtube.com/vi/Emh6zBlALbo/0.jpg" alt="Demo Video" style="width: 300px; height: auto;"/>
+    <img src="https://img.youtube.com/vi/Emh6zBlALbo/0.jpg" alt="Demo Video"
+         style="height: 200px; width: auto;
+                box-shadow: 0 0 10px #FFFF33, 0 0 20px #FF00FF, 0 0 30px #FFFF33, 0 0 40px #FF00FF;
+                border-radius: 10px;"/>
   </a>
 </div>
 
