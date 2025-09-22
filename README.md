@@ -35,10 +35,8 @@
 ## ✨ Öne Çıkan Özellikler
 
 - 🤖 **Bilge Logvian** - Mistik AI eğitmenle interaktif öğrenme
-- 🧪 **Canlı Lablar** - Gerçek siber güvenlik ortamları
 - 🎮 **Oyunlaştırılmış Eğitim** - XP, seviye ve ödül sistemi
 - 🔐 **Gerçek Dünya Senaryoları** - Pratik odaklı eğitim içerikleri
-- 🚀 **Tek Tıkla Lab Kurulumu** - Docker tabanlı hızlı dağıtım
 
 ## 🛠️ Teknoloji Stack'i
 
@@ -46,7 +44,6 @@
 - **Python 3.9+** - Temel programlama dili
 - **FastAPI** - Yüksek performanslı web framework
 - **Groq API** - Llama 3.3 70B açık kaynak AI modeli
-- **Docker SDK** - Konteyner yönetimi
 - **Uvicorn** - ASGI sunucusu
 
 ### Frontend
@@ -55,10 +52,8 @@
 - **WebSocket** - Gerçek zamanlı güncellemeler
 
 ### Lab Ortamları
-- **Docker** - Konteynerizasyon
 - **DVWA** (Damn Vulnerable Web App) - SQL Injection labı
 - **Juice Shop** - XSS ve Web Güvenliği labı
-- **Özel Hash Lab** - Hash kırma çalışmaları
 
 ## 🚀 Hızlı Kurulum
 
@@ -83,12 +78,7 @@ cp .env.example .env
 # MODEL_NAME=llama-3.3-70b-versatile
 
 
-# Tüm labları docker-compose ile başlat
-docker-compose up -d
 
-# Veya tek tek başlat:
-docker pull vulnerables/web-dvwa
-docker pull bkimminich/juice-shop
 
 cd backend
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
