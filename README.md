@@ -5,7 +5,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
 
-**Mistik bir üslupla siber güvenlik öğreten interaktif AI eğitmen platformu**
+**LOGVİAN AKADEMİ: Bilge Logvian’ın Etkileşimli ve Oyunlaştırılmış Siber Güvenlik Macerası**
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
   <!-- Resim -->
