@@ -48,3 +48,33 @@
 ```bash
 # Docker Desktop kurulu olmalı
 # Python 3.9+ kurulu olmalı
+
+git clone https://github.com/yourusername/logvian-academy.git
+cd logvian-academy
+
+python -m venv .venv
+source .venv/bin/activate  # Linux/Mac
+# veya
+.\.venv\Scripts\activate  # Windows
+
+pip install -r requirements.txt
+
+cp .env.example .env
+# .env dosyasını düzenle:
+# GROQ_API_KEY=your_groq_api_key_here
+# MODEL_NAME=llama-3.3-70b-versatile
+
+
+# Tüm labları docker-compose ile başlat
+docker-compose up -d
+
+# Veya tek tek başlat:
+docker pull vulnerables/web-dvwa
+docker pull bkimminich/juice-shop
+
+cd backend
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+cd view
+npm install
+npm start
