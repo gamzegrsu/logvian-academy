@@ -7,10 +7,18 @@
 
 **Mistik bir üslupla siber güvenlik öğreten interaktif AI eğitmen platformu**
 
+<p align="center">
+  <a href="https://youtu.be/Emh6zBlALbo">
+    <img src="https://img.youtube.com/vi/Emh6zBlALbo/0.jpg" alt="Demo Video" width="600"/>
+  </a>
+</p>
 
-
-
-[![Demo Video](https://img.youtube.com/vi/Emh6zBlALbo/0.jpg)](https://youtu.be/Emh6zBlALbo)
+<h3 align="center" style="
+  font-family: 'Papyrus', fantasy, serif; 
+  color: #8A2BE2; 
+  text-shadow: 0 0 5px #DA70D6, 0 0 10px #BA55D3, 0 0 15px #9400D3;">
+  LOGVİAN AKADEMİ
+</h3>
 
 ---
 
