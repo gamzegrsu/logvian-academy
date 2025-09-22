@@ -6,25 +6,25 @@
 ![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
 
 **LOGVİAN AKADEMİ: Bilge Logvian’ın Etkileşimli ve Oyunlaştırılmış Siber Güvenlik Macerası**
-
 <style>
 .neon-frame {
   height: 200px;
   width: auto;
   border-radius: 10px;
-  box-shadow: 0 0 10px #FFFF33, 0 0 20px #FF00FF, 0 0 30px #FFFF33, 0 0 40px #FF00FF;
-  animation: neon-glow 1.5s ease-in-out infinite alternate;
+  /* Parlak neon kenarlık için filter ve drop-shadow */
+  filter: drop-shadow(0 0 10px #FFFF33) drop-shadow(0 0 20px #FF00FF);
+  animation: neon-flicker 1s infinite alternate;
 }
 
-@keyframes neon-glow {
+@keyframes neon-flicker {
   0% {
-    box-shadow: 0 0 5px #FFFF33, 0 0 10px #FF00FF, 0 0 15px #FFFF33, 0 0 20px #FF00FF;
+    filter: drop-shadow(0 0 5px #FFFF33) drop-shadow(0 0 10px #FF00FF);
   }
   50% {
-    box-shadow: 0 0 15px #FFFF33, 0 0 30px #FF00FF, 0 0 45px #FFFF33, 0 0 60px #FF00FF;
+    filter: drop-shadow(0 0 20px #FFFF33) drop-shadow(0 0 40px #FF00FF);
   }
   100% {
-    box-shadow: 0 0 10px #FFFF33, 0 0 20px #FF00FF, 0 0 30px #FFFF33, 0 0 40px #FF00FF;
+    filter: drop-shadow(0 0 10px #FFFF33) drop-shadow(0 0 20px #FF00FF);
   }
 }
 </style>
